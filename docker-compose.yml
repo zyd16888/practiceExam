@@ -4,7 +4,7 @@ services:
   practice-exam:
     # 如果服务器已能拉到 Docker Hub 镜像，推荐使用 image 写法
     # 并替换成你自己的 Docker Hub 用户名和仓库名
-    image: cxsz16888/practiceExam:latest
+    image: cxsz16888/practiceexam:latest
     # 如果想在本机/服务器上从当前代码构建镜像，可以改用以下配置：
     # build:
     #   context: .
